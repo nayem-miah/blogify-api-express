@@ -4,7 +4,7 @@ const customRoutes = express.Router();
 
 customRoutes.use("/auth", require("./auth.route"));
 
-customRoutes.use("/blogs", require("./blog.route"));
+customRoutes.use("/", require("./blog.route"));
 
 customRoutes.use("/profile", require("./profile.route"));
 
